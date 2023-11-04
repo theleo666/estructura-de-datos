@@ -1,0 +1,8 @@
+digraph G {
+    inicio[shape=ellipse, label="inicio"]
+    hola_mundo[shape=ellipse, label="HOLA MUNDO"]
+    fin[ shape=ellipse, label="fin"]
+
+    inicio -> hola_mundo
+    hola_mundo -> fin
+}
